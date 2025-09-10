@@ -73,7 +73,7 @@ The interface shows the applied filter and allows stepping back through the filt
 ### Apply/Remove Parsed Filters
 This video showcases the advanced text-based filtering syntax.
 
-Users can type complex logical expressions (e.g., `∽RB_1:1 & (CG_2:[1.3..5] | NA_3:>100)`) to perform precise, multi-layered data segmentation that could not be achieved through clicking alone.
+Users can type complex logical expressions (e.g., `∽RB_1:1 & (CG_2:[1.3..5] | NA_3:>1..100)`) to perform precise, multi-layered data segmentation that could not be achieved through clicking alone.
 
 [](https://github.com/user-attachments/assets/af32a12f-0486-4199-8f97-f1a450ab91ed)
 <p align="center"><video width="800" controls><source src="./resources/videos/05-Apply-Remove-Parsed-Filters.mp4" type="video/mp4"></video></p>
