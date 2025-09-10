@@ -37,7 +37,7 @@ Libraries used include ***PyQt4, json, xlrd, csv, HTMLParser, PyInstaller***
 - ***Export***: Export the filtered results as static HTML reports or new database (.db) files for further analysis.
 
 ## Documentation
-Detailed documentation on all the supported features can be found [here](./docs/SRP_docs.pdf)
+Detailed documentation on all the supported features can be found [here](./docs/SRP_docs.pdf) (Created with [LaTeX](https://en.wikipedia.org/wiki/LaTeX))
 
 ## Demos
 ### Importing Questionnaire Files
