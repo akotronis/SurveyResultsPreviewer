@@ -44,6 +44,7 @@ Detailed documentation on all the supported features can be found [here](./docs/
 This video shows the first step: loading the questionnaire structure file.
 
 This file defines the questions, their types, and answer choices, which the application uses to correctly interpret and display the survey data.
+
 [](https://github.com/user-attachments/assets/1fb5f88d-f14f-4d31-9d73-bce78865c11e)
 <p align="center"><video width="800" controls><source src="./resources/videos/01-Importing-Questionnaire-Files.mp4" type="video/mp4"></video></p>
 
@@ -51,11 +52,13 @@ This file defines the questions, their types, and answer choices, which the appl
 This video demonstrates loading the actual survey response data.
 
 The application supports multiple formats, and once loaded, the imported questionnaire matches with the data, the current base appears on the output text box, and results are ready for preview.
+
 [](https://github.com/user-attachments/assets/1c2a2098-79b7-4e55-99ed-060e852e392c)
 <p align="center"><video width="800" controls><source src="./resources/videos/02-Importing-Data-Files.mp4" type="video/mp4"></video></p>
 
 ### Preview and Navigate Results
 Here, we generate an interactive HTML preview of selected questions. The left-hand table of contents with hyperlinks to questions allows for easy navigation through a potentially large set of results.
+
 [](https://github.com/user-attachments/assets/b118c59e-edc2-43b3-9f38-03839945d6aa)
 <p align="center"><video width="800" controls><source src="./resources/videos/03-Preview-and-Navigate-Results.mp4" type="video/mp4"></video></p>
 
@@ -63,6 +66,7 @@ Here, we generate an interactive HTML preview of selected questions. The left-ha
 This demo highlights the powerful interactive filtering feature. By clicking on the hyperlinked values (counts or table bases) within the HTML tables, users can drill down into specific data subsets.
 
 The interface shows the applied filter and allows stepping back through the filter history.
+
 [](https://github.com/user-attachments/assets/a0c60cf5-9ae4-42f8-a954-4945b7050fed)
 <p align="center"><video width="800" controls><source src="./resources/videos/04-Apply-Remove-Interactive-Filters.mp4" type="video/mp4"></video></p>
 
@@ -70,15 +74,18 @@ The interface shows the applied filter and allows stepping back through the filt
 This video showcases the advanced text-based filtering syntax.
 
 Users can type complex logical expressions (e.g., `∽RB_1:1 & (CG_2:[1.3..5] | NA_3:>100)`) to perform precise, multi-layered data segmentation that could not be achieved through clicking alone.
+
 [](https://github.com/user-attachments/assets/af32a12f-0486-4199-8f97-f1a450ab91ed)
 <p align="center"><video width="800" controls><source src="./resources/videos/05-Apply-Remove-Parsed-Filters.mp4" type="video/mp4"></video></p>
 
 ### Export HTML Previews
 Once the data is filtered to the desired subset, this feature allows exporting the current preview as a static HTML report. This is ideal for sharing specific insights with others who may not have the application.
+
 [](https://github.com/user-attachments/assets/b9735358-7521-4c93-8bd6-4d225269950f)
 <p align="center"><video width="800" controls><source src="./resources/videos/06-Export-HTML-Previews.mp4" type="video/mp4"></video></p>
 
 ### Export (Filtered) Data
 The most powerful export feature: saving the filtered dataset itself as a new .db file. This allows for further analysis on the specific data segment in other tools or for re-importing later into this application, preserving all applied filters.
+
 [](https://github.com/user-attachments/assets/f0f2316b-9c56-4e38-8edb-d6385ad3923b)
 <p align="center"><video width="800" controls><source src="./resources/videos/07-Export-Filtered-Data.mp4" type="video/mp4"></video></p>
