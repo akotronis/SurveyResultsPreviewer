@@ -9,14 +9,11 @@ A PyQt desktop application for analyzing and reporting on survey data from the V
 - Export to HTML reports and database files
 - Supports multiple question types including _RadioButton, CheckBox, Grids, Ranking,_ etc.
 
-## Note
-This is a _legacy_ application built with Python 2.7 and PyQt. It's maintained for historical reference.
-
 ## ⚠️ Legacy Notice
-This project was built with Python 2.7 (EOL) and may contain outdated patterns. It's uploaded for:
+This project was built with _Python 2.7 (EOL)_ and may contain outdated patterns. It's uploaded for:
 - Historical reference
 - Educational purposes
-- Demonstration of domain-specific data processing
+- Demonstration purposes
 
 ## Details
 This is a **distributable** (runs in any Windows machine with no python installation required), **portable** (no app installation required), **standalone** application (run by single executable) written in Python which is used for monitoring surveys hosted by VOXCO platform.
@@ -73,7 +70,7 @@ The interface shows the applied filter and allows stepping back through the filt
 ### Apply/Remove Parsed Filters
 This video showcases the advanced text-based filtering syntax.
 
-Users can type complex logical expressions (e.g., `∽RB_1:1 & (CG_2:[1.3..5] | NA_3:>1..100)`) to perform precise, multi-layered data segmentation that could not be achieved through clicking alone.
+Users can type complex logical expressions (e.g., `∽RB_1:1 & (CG_2:[1.3..5] | NA_3:1..100)`) to perform precise, multi-layered data segmentation that could not be achieved through clicking alone.
 
 [](https://github.com/user-attachments/assets/af32a12f-0486-4199-8f97-f1a450ab91ed)
 <p align="center"><video width="800" controls><source src="./resources/videos/05-Apply-Remove-Parsed-Filters.mp4" type="video/mp4"></video></p>
